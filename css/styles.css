@@ -62,7 +62,6 @@ img {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    outline: 1px solid tomato;
 }
 
 
@@ -72,21 +71,18 @@ img {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ECECEC;
-    outline: 1px solid tomato;
 }
 
 .site-nav-items {
     display: flex;
     margin: 0px 0px 0px 93px;
     padding: 0;
-    outline: 1px solid tomato;
 }
 
 .nav-link,
 .contacts-link {
     padding: 32px 0px 32px 0px;
     display: block;
-    outline: 1px solid tomato;
 }
 
 .site-nav-items .item:not(:last-child) {
@@ -97,7 +93,6 @@ img {
     display: flex;
     margin: 0px 0px 0px auto;
     padding: 0;
-    outline: 1px solid tomato;
 }
 
 .contacts .item:not(:last-child) {
@@ -110,7 +105,6 @@ img {
 .features-items {
     display: flex;
     margin: 0;
-    outline: 1px solid tomato;
     padding-left: 0;
 }
 
@@ -120,7 +114,6 @@ img {
 
 .features-items>.item {
     width: 270px;
-    outline: 1px solid tomato;
 }
 
 
@@ -128,14 +121,12 @@ img {
 
 .what-doing-title {
     margin-bottom: 50px;
-    outline: 1px solid tomato;
 }
 
 .what-doing-items {
     display: flex;
     padding: 0px 0px 94px 0px;
     margin: 0;
-    outline: 1px solid tomato;
 }
 
 .what-doing-items .item:not(:last-child) {
@@ -147,14 +138,12 @@ img {
 
 .our-team-main-title {
     margin-bottom: 50px;
-    outline: 1px solid tomato;
 }
 
 .our-team-items {
     display: flex;
     padding-left: 0px;
     margin: 0;
-    outline: 1px solid tomato;
 }
 
 .our-team-items .item {
@@ -163,7 +152,6 @@ img {
     text-align: center;
     padding-bottom: 30px;
     background-color: var(--additional-color);
-    outline: 1px solid tomato;
 }
 
 .our-team-items .item:not(:last-child) {
@@ -173,7 +161,6 @@ img {
 .our-team-items .our-team-title {
     margin-top: 30px;
     margin-bottom: 10px;
-    outline: 1px solid tomato;
 }
 
 
@@ -181,14 +168,12 @@ img {
 
 .footer-container {
     padding: 60px 15px;
-    outline: 1px solid tomato;
 }
 
 .address-items {
     padding: 0;
     margin-top: 20px;
     margin-bottom: 0px;
-    outline: 1px solid tomato;
 }
 
 .address-items .item:not(:last-child) {
