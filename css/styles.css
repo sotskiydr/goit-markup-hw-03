@@ -191,7 +191,7 @@ img {
 }
 
 .portfolio-items .item {
-    flex-basis: calc(100%/3 - 30px);
+    flex-basis: calc((100% - 90px)/3);
     margin-top: 30px;
     margin-left: 30px;
     border: 1px solid #EEEEEE;
