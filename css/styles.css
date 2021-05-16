@@ -2,6 +2,7 @@
     --main-color: #212121;
     --second-color: #757575;
     --hover-color: #2196F3;
+    --additional-color: #ffffff;
 }
 
 
@@ -51,7 +52,7 @@ img {
 }
 
 
-/* Разметка */
+/* Позиционирование */
 
 .container {
     width: 1200px;
@@ -150,6 +151,7 @@ img {
     border-radius: 0px 0px 4px 4px;
     text-align: center;
     padding-bottom: 30px;
+    background-color: var(--additional-color);
 }
 
 .our-team-items .item:not(:last-child) {
@@ -177,6 +179,45 @@ img {
 .address-items .item:not(:last-child) {
     margin-bottom: 9px;
 }
+
+
+/* Портфолио */
+
+.container-portfolio {
+    padding: 94px 0px;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+.portfolio-items .item {
+    flex-basis: calc(100%/3 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #EEEEEE;
+}
+
+.portfolio-items .item-content {
+    padding: 20px 24px;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.filter .item:not(:last-child) {
+    margin-right: 8px;
+}
+
+
+/* Разметка */
 
 
 /* Логотип */
@@ -232,7 +273,7 @@ img {
 }
 
 .hero .hero-title {
-    color: #ffffff;
+    color: var(--additional-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -246,7 +287,7 @@ img {
 
 .hero .btn {
     display: inline-block;
-    color: #ffffff;
+    color: var(--additional-color);
     background-color: var(--hover-color);
     font-weight: 700;
     font-size: 16px;
@@ -331,7 +372,7 @@ img {
 }
 
 .footer .footer-logo {
-    color: #ffffff;
+    color: var(--additional-color);
 }
 
 .footer {
@@ -339,7 +380,7 @@ img {
 }
 
 .address .map-link {
-    color: #ffffff;
+    color: var(--additional-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -370,10 +411,15 @@ img {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    border: 1px solid #EEEEEE;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 22px;
 }
 
 .portfolio .btn-filter:hover {
-    color: #ffffff;
+    color: var(--additional-color);
     background-color: var(--hover-color);
 }
 
