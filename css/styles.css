@@ -15,6 +15,8 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -73,9 +75,12 @@ img {
     border-bottom: 1px solid #ECECEC;
 }
 
+.site-nav {
+    margin-left: 93px;
+}
+
 .site-nav-items {
     display: flex;
-    margin: 0px 0px 0px 93px;
     padding: 0;
 }
 
@@ -91,7 +96,7 @@ img {
 
 .contacts {
     display: flex;
-    margin: 0px 0px 0px auto;
+    margin-left: auto;
     padding: 0;
 }
 
@@ -119,14 +124,17 @@ img {
 
 /* чем мы занимаемся */
 
+.what-doing {
+    padding-top: 0px;
+}
+
 .what-doing-title {
     margin-bottom: 50px;
 }
 
 .what-doing-items {
     display: flex;
-    padding: 0px 0px 94px 0px;
-    margin: 0;
+    padding: 0;
 }
 
 .what-doing-items .item:not(:last-child) {
@@ -150,7 +158,6 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
-    padding-bottom: 30px;
     background-color: var(--additional-color);
 }
 
@@ -158,22 +165,27 @@ img {
     margin-right: 30px;
 }
 
-.our-team-items .our-team-title {
-    margin-top: 30px;
+.our-team-items .item-content {
+    padding: 30px 0px;
+}
+
+.our-team-title {
     margin-bottom: 10px;
 }
 
 
 /* Футер */
 
-.footer-container {
-    padding: 60px 15px;
+.footer {
+    padding: 60px 0px;
 }
 
-.address-items {
-    padding: 0;
+.footer-container {
+    padding: 0 15px;
+}
+
+.address {
     margin-top: 20px;
-    margin-bottom: 0px;
 }
 
 .address-items .item:not(:last-child) {
@@ -194,18 +206,19 @@ img {
     flex-basis: calc((100% - 90px)/3);
     margin-top: 30px;
     margin-left: 30px;
-    border: 1px solid #EEEEEE;
 }
 
 .portfolio-items .item-content {
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .filter {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    padding: 0px;
 }
 
 .filter .item:not(:last-child) {
@@ -265,7 +278,7 @@ img {
 .hero {
     background-color: #2F303A;
     text-align: center;
-    padding: 200px 0px 210px 0px;
+    padding: 200px 0px;
 }
 
 .hero .hero-title {
@@ -277,7 +290,8 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-    padding: 0px 237px;
+    max-width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
